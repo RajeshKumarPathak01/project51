@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+li{
+  :hover {
+    border-bottom: 1px solid white;
+    color: red;
+    color: aliceblue;
+  }
+  margin-inline: 18px;
+}
+
+a.active{
+   border-bottom: 1px solid white;
+   font-weight: bold;
+}
+hr{
+  margin-inline: 5px;
+}
+
+.spinner{
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #0b13af;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+table{
+  width: 90%;
+  line-height: 35px;
+}
+
+td{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  margin-inline: 5px;
+  word-wrap:normal;
+  width: 15px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.227);
+  font-size: medium;
+}
+
+
+
+
+
+
+
+
