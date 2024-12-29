@@ -14,8 +14,7 @@ function Home() {
 
 
   const data = useLoaderData();
-  // const timeoutId = useRef(null);
-  const vite_url = `http://www.omdbapi.com/?apikey=8c6850ef&s=${inputBox}`;
+  const vite_url = `https://www.omdbapi.com/?apikey=8c6850ef&s=${inputBox}`;
   const hadleSearch = async () => {
      setLoader(true);
     const response = await fetch(vite_url);

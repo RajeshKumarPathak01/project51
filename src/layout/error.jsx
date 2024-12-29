@@ -2,6 +2,7 @@ import React from 'react'
 import { useRouteError } from 'react-router'
 import { NavLink } from 'react-router';
 import { useNavigate } from 'react-router';
+import errImg from "/src/assets/Error2.png";
 
 function Error() {
   
@@ -16,7 +17,7 @@ function Error() {
     <div className=" flex flex-col justify-center sm:h-[70vh] bg-white h-[70vh] w-[100vw] items-center">
       <figure>
         <img
-          src="./src/assets/Error2.png"
+          src={errImg}
           alt="404 Error"
           className="w-[700px] sm:w-[350px] sm:h-[300px] h-[300px]"
         />

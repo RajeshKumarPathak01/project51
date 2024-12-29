@@ -2,13 +2,12 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="flex flex-col items-center w-[80%] sm:mx-6 justify-between mx-[15%] my-2 sm:my-5 bg-gray-100 text-gray-800">
-
+    <div className=" flex flex-col items-center w-[80%] sm:w-[80%] sm:mx-1 justify-between mx-[15%] my-2 sm:my-1 bg-gray-100 text-gray-800">
       <div className="w-full max-w-4xl px-6  sm:px-1 sm:w-[100%] sm:overflow-y-visible  py-8 mx-2 bg-white shadow-md rounded-lg">
-        <h1 className="text-4xl font-bold text-center text-blue-900 mb-6">
+        <h1 className="text-2xl -mt-5 font-bold text-center text-blue-900 mb-1">
           About Us
         </h1>
-        <hr className="mx-5 mt-5 sm:my-5 mb-4" />
+        <hr className="mx-5 mt-5 sm:my-1 mb-4" />
         <p className="text-md text-justify leading-relaxed mb-6">
           Welcome to <strong>Movie World</strong>, your one-stop destination for
           exploring your favorite movies, discovering new titles, and learning
