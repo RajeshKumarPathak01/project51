@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className=" flex flex-col items-center w-[80%] sm:w-[80%] sm:mx-1 justify-between mx-[15%] my-2 sm:my-1 bg-gray-100 text-gray-800">
+    <div className=" flex flex-col items-center w-[80%] sm:w-[70%] sm:mx-0 justify-between mx-[15%] my-2 sm:my-1 bg-gray-100 text-gray-800">
       <div className="w-full max-w-4xl px-6  sm:px-1 sm:w-[100%] sm:overflow-y-visible  py-8 mx-2 bg-white shadow-md rounded-lg">
         <h1 className="text-2xl -mt-5 font-bold text-center text-blue-900 mb-1">
           About Us

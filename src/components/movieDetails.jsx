@@ -51,7 +51,7 @@ const [isLoading,setIsloading]=useState(true)
         <div id="main">
           <div className=" sticky w-full " id="btn">
             <button
-              className="bg-blue-700  text-white py-2 px-4  my-4 text-xl rounded-lg hover:bg-blue-500  fixed sm:right-[18%] right-[18%]"
+              className="bg-blue-700  text-white py-2 px-4  my-4 text-xl rounded-lg hover:bg-blue-500  fixed sm:right-[2%] right-[18%]"
               onClick={() => navigate(-1)}
             >
               {" "}
@@ -64,7 +64,7 @@ const [isLoading,setIsloading]=useState(true)
             id="image + content"
           >
             <div
-              className=" w-[32%]  sm:w-[88%] sm:h-[100%] h-[90%]  "
+              className=" w-[32%]  sm:w-[82%] sm:h-[100%] h-[90%]  "
               id="image"
             >
               <img

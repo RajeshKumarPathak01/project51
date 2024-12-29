@@ -4,10 +4,10 @@ import movieIcon from '/src/assets/moviesIcon.png'
 
 function Movie() {
   return (
-    <div className="container justify-center  flex text-white bg-slate-500 w-[110%] h-[100vh]  -ml-4 ">
+    <div className="container justify-center sm:w-[100%]  flex text-white bg-slate-500 w-[110%] h-[100vh]  -ml-4 ">
       <div className=" w-[100%] flex flex-col flex-wrap justify-between">
-        <div className="  w-full md:w-1/2 text-center px-4">
-          <h2 className="text-3xl font-bold my-3 text-white mb-4 sm:mx-2 ">
+        <div className="  w-full sm:w-[100%] text-center px-4">
+          <h2 className="text-3xl font-bold my-3 text-white mb-4 sm:mx-[10px] ">
             Welcome to The Movie World
           </h2>
           <hr className="mx-5  my-4" />
@@ -21,7 +21,7 @@ function Movie() {
               <img
                 src={movieIcon}
                 alt="movieLogo"
-                className="w-[250%] h-[50%] my-1 sm:mb-10 sm:h-[292px] sm:w-[100%] sm:mx-2  max-w-xs sm:max-w-sm "
+                className="w-[250%] h-[50%] my-1 sm:mb-10 sm:h-[252px] sm:w-[95%] sm:mx-2  max-w-xs sm:max-w-sm "
               />
             </figure>
 

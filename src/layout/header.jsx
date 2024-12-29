@@ -8,7 +8,7 @@ function Header() {
   const toggleMenu = (isOpen) => setIsOpen(!isOpen);
 
   return (
-    <div className="container flex flex-wrap items-center justify-between mx-0 sm:mx-2  bg-white rounded-md sticky sm:top-0  top-0 border-b-[2px]">
+    <div className="container flex flex-wrap items-center justify-between mx-0 sm:mx-0  bg-white rounded-md sticky sm:top-0  top-0 border-b-[2px]">
       <div className=" -mr-6 text-xl flex    ">
         <img className=" h-[90px] w-[90px] " src={logoIcon} alt="Logo" />{" "}
         <span className=" py-8 text-2xl font-bold "> Movie world</span>
