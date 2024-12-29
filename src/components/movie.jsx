@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router';
+import {movieIcon} from '../assets/moviesIcon.png'
 
 function Movie() {
   return (
@@ -18,13 +19,16 @@ function Movie() {
           <div className=" sm:flex-col sm:mt-5 flex items-center sm:ml-[2%]  ml-[20%] ">
             <figure>
               <img
-                src="./src/assets/moviesIcon.png"
+                src={movieIcon}
                 alt="movieLogo"
                 className="w-[250%] h-[50%] my-1  max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg "
               />
             </figure>
-           <NavLink to="movie" className="px-6 py-3 sm:my-[10%] sm:mx-[5%] sm:bg-blue-900 ml-[10%] bg-blue-900 text-white rounded-lg shadow hover:bg-blue-700 transition">
-            Explore Movies
+            <NavLink
+              to="movie"
+              className="px-6 py-3 sm:my-[10%] sm:mx-[5%] sm:bg-blue-900 ml-[10%] bg-blue-900 text-white rounded-lg shadow hover:bg-blue-700 transition"
+            >
+              Explore Movies
             </NavLink>
           </div>
         </div>
