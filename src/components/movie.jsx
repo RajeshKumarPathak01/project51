@@ -21,7 +21,7 @@ function Movie() {
               <img
                 src={movieIcon}
                 alt="movieLogo"
-                className="w-[250%] h-[50%] my-1 sm:mb-10 sm:h-[252px] sm:w-[95%] sm:mx-2  max-w-xs sm:max-w-sm "
+                className="w-[250%] h-[50%] my-1 sm:mb-10 sm:h-[215px] sm:w-[95%] sm:mx-2  max-w-xs sm:max-w-sm "
               />
             </figure>
 

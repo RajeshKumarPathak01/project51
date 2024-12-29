@@ -12,7 +12,7 @@ function Layout() {
    
     return (
       <div
-        className=" sm:h-[74%] mx-44 sm:-mx-2 flex flex-col  h-screen sm:w-[103%] bg-white  bg-cover bg-no-repeat  "
+        className=" sm:h-[87%] mx-44 sm:-mx-2 flex flex-col  h-screen sm:w-[103%] bg-white  bg-cover bg-no-repeat  "
         style={{ backgroundImage: `url(${sea})` }}
       >
         <Header className="relative">
