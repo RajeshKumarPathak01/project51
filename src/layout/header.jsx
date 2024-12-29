@@ -20,7 +20,7 @@ function Header() {
         }`}
       >
         <nav>
-          <ul className="flex flex-row   flex-wrap mx-0 sm:mx-0 sm:gap-0  text-lg font-medium py-2 ">
+          <ul className="flex flex-row   flex-wrap mx-0 sm:-ml-0 sm:mx-0 sm:gap-0  text-md font-medium py-2 ">
             <li>
               <NavLink to="">Home</NavLink>
             </li>
