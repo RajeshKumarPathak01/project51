@@ -56,7 +56,7 @@ function Home() {
       <div className="container justify-between h-fit mb-[30%] sm:h-fit">
         <div className="flex flex-col my-8 items-center justify-center">
           <input
-            className="mx-10 w-[50%] py-4 text-center outline-none border-b-2 border-blue-500 rounded-lg  text-xl text-[30px]"
+            className="mx-10 w-[50%] py-4 text-center outline-none border-b-2 border-blue-500 rounded-lg sm:text-sm text-xl text-[30px]"
             type="text"
             name="movieSearch"
             id="movieSearch"
