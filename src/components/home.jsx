@@ -64,6 +64,7 @@ function Home() {
             placeholder="Search your Favourite Movie"
             onChange={(e) => handleSearchBoxCall(e)}
             value={inputBox}
+            autocomplete="off"
             onKeyDown={triggerSearch}
           />
           <button
@@ -92,7 +93,7 @@ function Home() {
                   className="flex-wrap inline-flex sm:ml-0 sm:mx-3 mx-14 my-2 py-1"
                   key={key}
                 >
-                  <NavLink to={`${item.imdbID}`} >
+                  <NavLink to={`${item.imdbID}`}>
                     <div className="sm:border-2 sm:w-[100%]  border-1 sm:hover:scale-105  hover:scale-105  shadow-black shadow-xl border-black bg-white mb-5 rounded-lg sm:-mx-0 ">
                       <img
                         src={item.Poster}

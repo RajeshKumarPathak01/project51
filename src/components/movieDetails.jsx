@@ -13,12 +13,6 @@ function MovieDetails() {
 const [isLoading,setIsloading]=useState(true)
  console.log("Navigation State", navigation.state);
 
-  //  useEffect(()=>{
-  //   if(data){
-  //     setIsloading(false);
-  //   }
-  //  },[data])
- 
 
  if (!data) {
    return <div>Error: Unable to fetch movie details</div>;
@@ -76,11 +70,11 @@ const [isLoading,setIsloading]=useState(true)
               <img
                 src={Poster}
                 alt={Title}
-                className="w-[350px] h-[700px] sm:mx-6 sm:w-[100%] sm:my-2 sm:shadow-2xl sm:border-2 sm:shadow-black rounded-lg mx-14 shadow-2xl shadow-black "
+                className="w-[350px] h-[700px] sm:mx-6 sm:w-[100%] sm:h-[450px] sm:my-2 sm:shadow-2xl sm:border-2 sm:shadow-black rounded-lg mx-14 shadow-2xl shadow-black "
               />
             </div>
             <div
-              className=" border-blue-500 sm:h-[100%] sm:w-[95%] sm:my-8  sm:-ml-0 sm:shadow-xl sm:shadow-black sm:max-h-full  sm:mx-2 w-[50%] mx-20  rounded-lg bg-blue-900 text-white"
+              className=" border-blue-500 sm:h-[860px] sm:w-[95%] sm:my-5  sm:-ml-0 sm:shadow-xl sm:shadow-black sm:max-h-full  sm:mx-2 w-[50%] mx-20  rounded-lg bg-blue-900 text-white"
               id="content"
             >
               <table className="my-5 mx-8 text-wrap mr-2  ">
