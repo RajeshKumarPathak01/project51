@@ -15,12 +15,12 @@ function Header() {
       </div>
  
       <div
-        className={` sm:flex sm:items-center sm:mx-4  py-1   flex flex-wrap bg-blue-900 text-white rounded-lg sm:-mr-[30%] -mr-[38%] 
+        className={` sm:flex sm:items-center sm:mx-3  py-1   flex flex-wrap bg-blue-900 text-white rounded-lg sm:-mr-[30%] -mr-[38%] 
          
         }`}
       >
         <nav>
-          <ul className="flex flex-row   flex-wrap mx-0 sm:-ml-0 sm:mx-0 sm:gap-0  text-md font-medium py-2 ">
+          <ul className="flex flex-row   flex-wrap mx-0 sm:-ml-1 sm:mx-2 sm:gap-0  text-md font-medium py-2 ">
             <li>
               <NavLink to="">Home</NavLink>
             </li>
