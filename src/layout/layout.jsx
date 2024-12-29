@@ -23,17 +23,7 @@ function Layout() {
           <Footer />
         </footer>
 
-        {/* <div>
-          <Header />
-        </div>
-
-        <div>
-          <Outlet />
-        </div>
-
-        <div>
-          <Footer />
-        </div> */}
+  
       </div>
     );
   }

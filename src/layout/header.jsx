@@ -22,19 +22,19 @@ function Header() {
         <nav>
           <ul className="flex flex-row   flex-wrap mx-0 sm:-mx-1 sm:gap-0  text-lg font-medium py-2 ">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="">Home</NavLink>
             </li>
             |
             <li>
-              <NavLink to="/movie">Search Movies</NavLink>
+              <NavLink to="movie">Search Movies</NavLink>
             </li>
             |
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="about">About</NavLink>
             </li>
             |
             <li>
-              <NavLink to="/contact">Contact Us</NavLink>
+              <NavLink to="contact">Contact Us</NavLink>
             </li>
           </ul>
         </nav>

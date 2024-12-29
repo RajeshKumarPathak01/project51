@@ -18,27 +18,27 @@ import { useNavigation } from 'react-router'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/project51",
     element: <Layout />,
 
     children: [
       { index: true, element: <Movie /> },
       { path: "movie", element: <Home /> },
-      { path: "movie/:movieId", element: <MovieDetails />, 
-         errorElement: < Error />,
-        loader: GetMovie ,
-       
+      {
+        path: "movie/:movieId",
+        element: <MovieDetails />,
+        errorElement: <Error />,
+        loader: GetMovie,
       },
       { path: "*", element: <Error /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       {
-        path: "/movie/:*",
+        path: "movie/:*",
         element: <Error />,
       },
     ],
   },
- 
 ]);
 
 createRoot(document.getElementById('root')).render(

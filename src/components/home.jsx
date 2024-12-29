@@ -89,16 +89,16 @@ function Home() {
             movieData.map((item, key) => {
               return (
                 <div
-                  className="flex-wrap inline-flex sm:ml-0 sm:mx-5 mx-14 my-2 py-1"
+                  className="flex-wrap inline-flex sm:ml-0 sm:mx-3 mx-14 my-2 py-1"
                   key={key}
                 >
-                  <NavLink to={`/movie/${item.imdbID}`} >
+                  <NavLink to={`${item.imdbID}`} >
                     <div className="sm:border-2 sm:w-[100%]  border-1 sm:hover:scale-105  hover:scale-105  shadow-black shadow-xl border-black bg-white mb-5 rounded-lg sm:-mx-0 ">
                       <img
                         src={item.Poster}
                         alt={item.Title}
                         id="img"
-                        className="w-[210px] sm:h-[230px]  sm:w-[92%] border-2  sm:object-center  mt-3   h-[250px] flex flex-wrap  mx-8  rounded-lg sm:mx-2 my-2 "
+                        className="w-[210px] sm:h-[230px]  sm:w-[92%] border-2  sm:object-center  mt-3   h-[250px] flex flex-wrap  mx-8  rounded-lg sm:mx-0 my-2 "
                       />
                       <div className="bg-blue-900 rounded-lg mb-2 hover:bg-blue-700 ">
                         <p className=" text-white font-bold sm:w-[100%] text-center text-wrap mx-1  py-0 w-[95%] mt-2">
