@@ -19,7 +19,7 @@ function Layout() {
           <Header />
         </Header>
 
-        <main className="flex flex-wrap justify-center sm:w-[103%]  items-center  overflow-x-hidden overflow-y-auto ">
+        <main className="flex flex-wrap justify-center sm:w-[103%] -mb-[10%] items-center  overflow-x-hidden overflow-y-auto ">
           <Outlet />
         </main>
 

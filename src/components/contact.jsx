@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col mx-[35%] sm:mx-[14%]  my-9 sm:my-4 rounded items-center justify-center min-h-8  text-gray-800">
+    <div className="flex flex-col mx-[25%] sm:mx-[14%]  my-6 sm:my-4 rounded items-center justify-center min-h-8  text-gray-800">
       <div className="w-full max-w-2xl mx-8  px-2 py-1 bg-white mb-1 shadow-xl rounded-lg">
         <h1 className="text-3xl mt-4 font-bold text-center text-blue-900 mb-6 ">
           Contact Us

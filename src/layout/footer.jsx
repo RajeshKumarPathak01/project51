@@ -2,7 +2,7 @@ function Footer() {
 
 
   return (
-    <footer className="bg-blue-900 text-white py-4  mt-0 sm:py-4 sm:fixed sm:bottom-0 sm:w-[full]">
+    <footer className="bg-blue-900 text-white py-12  mt-[10%] sm:py-4 sm:fixed sm:bottom-0 sm:w-[full]">
       <div className="container  text-center ">
         <p className="text-sm">
           Copyright © {new Date().getFullYear()} <strong>Movie World</strong>.
